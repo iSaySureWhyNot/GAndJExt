@@ -1,9 +1,27 @@
 body {
-    display: 'flex';
-    flex-basis: '40%'
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 550px;
+    background-color: lightblue;
 }
 
-.mainframe {
-    display: 'flex';
+#mainframe {
+    display: none;
+    flex-direction: column;
+    min-height: 560px;
 
+}
+
+#iframe {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#calButton {
+    width: 70px;
+}
+
+.gcse-search {
+    display: flex;
 }
