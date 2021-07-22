@@ -1,4 +1,9 @@
+body {
+    display: 'flex';
+    flex-basis: '40%'
+}
+
 .mainframe {
     display: 'flex';
-    
+
 }
