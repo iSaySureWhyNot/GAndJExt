@@ -2,9 +2,9 @@
     "name": "Compact Query (working name)",
     "description": "Get quick and compact previews of your coding queries!",
     "version": "1.0",
-    "permissions": ["storage"],
+    "permissions": "storage",
     "background": {
-        "service_worker": ["background.js"]
+        "service_worker": "background.js"
         
       },
     "manifest_version": 3
