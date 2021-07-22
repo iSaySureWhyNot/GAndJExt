@@ -7,10 +7,65 @@
         width: 30px;
         outline: none;
       }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      p > #mdnCode{
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-weight: bolder;
+      }
+
+      .button {
+        background-color: #103282; /* Green */
+        border: none;
+        color: white;
+        padding: 8px 24px;
+        font-size: 11px;
+        margin: 2px 1px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 2px;
+      }
+
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #103282;
+      }
+
+      .button1:hover {
+        background-color: #103282;
+        color: white;
+      }
     </style>
   </head>
   <body>
-    <button id="changeColor"></button>
+    <!-- <button id="changeColor"></button> -->
     <script src="popup.js"></script>
+
+    <input type="text" id="queryBox">
+    <button id="querySearch" class="button button1"></button>
+
+    <h3>Mozilla MDN</h3>
+    <p id="mdn">
+
+    </p>
+    <p id="mdnCode">
+      
+    </p>
+
+    <h3>W3 Schools</h3>
+    <p id="w3">
+
+    </p>
+    
+    <h3>Stack Overflow</h3>
+    <a id="stack"></a>
+
+    <!-- JavaScript -->
+    <!-- https://letmegooglethat.com/?q= test &l=1 -->
   </body>
 </html>
