@@ -4,9 +4,9 @@
     "version": "1.0",
     "permissions": ["storage"],
     "background": {
-        "service_worker": "background.js"
-        
-      },
+      "scripts": ["background.js"],
+      "persistent": false
+    },
       "page_action": {
         "default_popup": "popup.html"
       },
