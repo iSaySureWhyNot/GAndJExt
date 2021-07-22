@@ -2,7 +2,7 @@
     "name": "Compact Query (working name)",
     "description": "Get quick and compact previews of your coding queries!",
     "version": "1.0",
-    "permissions": ["storage"],
+    "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
